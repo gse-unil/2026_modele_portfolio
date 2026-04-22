@@ -1,0 +1,26 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6322b926-b979-4617-ac7a-61ef8b2efc01
+  # title: Prénom NOM
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  toc:
+    - file: content/apropos
+    - file: content/portfolio
+    - file: content/project
+
+site:
+  template: book-theme
+  options:
+    folders: true
+    hide_footer_links: true
+    # favicon: favicon.ico
+    logo: content/other/site_logo.png
+    logo_text: "Prénom NOM"
+  nav: []
+  parts: 
+    footer: []
+    primary_sidebar_footer: content/other/primary-sidebar-footer.md
