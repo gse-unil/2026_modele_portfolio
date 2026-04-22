@@ -8,9 +8,9 @@ project:
   # authors: []
   # github:
   toc:
-    - file: content/apropos
-    - file: content/portfolio
-    - file: content/project
+    - file: content/apropos.md
+    - file: content/portfolio.md
+    - file: content/mon_projet.ipynb
 
 site:
   template: book-theme
