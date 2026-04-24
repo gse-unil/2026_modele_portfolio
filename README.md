@@ -17,6 +17,24 @@ Voici l’organisation du modèle :
 
 ## Par où commencer ?
 
+Tout d'abord pour publier ce répertoire sur GitHub Pages, suivez ces étapes :
+
+1. **Forker le répertoire**
+   - Cliquez sur **Fork** en haut à droite pour créer votre propre copie sur votre compte GitHub.
+
+2. **Activer les workflows**
+   - Allez dans l’onglet **Actions** de votre répertoire forké.
+   - Cliquez sur **"I understand my workflows, go ahead and enable them"** pour activer les workflows.
+
+3. **Activer GitHub Pages**
+   - Ouvrez les **Paramètres** (`Settings`) de votre répertoire forké.
+   - Dans la section **Pages**, sélectionnez **GitHub Actions** comme source de déploiement.
+
+4. **Publier et vérifier le site**
+   - Effectuez une modification et **commit** dans le répertoire.
+   - Le workflow GitHub Actions générera et publiera automatiquement le site.
+   - L’URL du site sera indiquée dans la section **Pages** des paramètres.
+
 ### 1. Modifier votre profil
 
 * Fichier : `content/apropos.md`
