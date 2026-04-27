@@ -17,6 +17,8 @@ Voici l’organisation du modèle :
 
 ## Par où commencer ?
 
+![tp5](content/other/tp5-tuto.gif)
+
 Tout d'abord pour publier ce répertoire sur GitHub Pages, suivez ces étapes :
 
 1. **Forker le répertoire**
