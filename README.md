@@ -15,7 +15,7 @@ Voici l’organisation du modèle :
 │      └── ma_photo.png
 ```
 
-## Par où commencer ?
+## I. Configurer le portfolio
 
 ![tp5](content/other/tp5-tuto.gif)
 
@@ -36,6 +36,8 @@ Tout d'abord pour publier ce répertoire sur GitHub Pages, suivez ces étapes :
    - Effectuez une modification et **commit** dans le répertoire.
    - Le workflow GitHub Actions générera et publiera automatiquement le site.
    - L’URL du site sera indiquée dans la section **Pages** des paramètres.
+
+## II. Renseigner les données
 
 ### 1. Modifier votre profil
 
