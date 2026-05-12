@@ -1,6 +1,6 @@
-# Modèle de Portfolio
+# [Modèle de Portfolio](https://github.com/gse-unil/2026_modele_portfolio)
 
-Ce repértoire fournit un modèle de portfolio prêt à l’emploi pour les étudiant·e·s.
+Ce [repértoire](https://github.com/gse-unil/2026_modele_portfolio) fournit un modèle de portfolio prêt à l’emploi pour les étudiant·e·s.
 
 L’objectif est simple : vous permettre de créer rapidement un portfolio propre, structuré et personnalisable, sans connaissances avancées en programmation.
 
