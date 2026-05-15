@@ -2,7 +2,7 @@
 authors = ["Ayoub <63267601+ayoubft@users.noreply.github.com>"]
 channels = ["conda-forge"]
 name = "geoinf_ii_tp5"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
