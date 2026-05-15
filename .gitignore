@@ -11,3 +11,6 @@ wheels/
 
 # MyST build outputs
 _build
+# pixi environments
+.pixi/*
+!.pixi/config.toml
