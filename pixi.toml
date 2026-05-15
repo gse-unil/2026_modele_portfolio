@@ -1,0 +1,16 @@
+[workspace]
+authors = ["Ayoub <63267601+ayoubft@users.noreply.github.com>"]
+channels = ["conda-forge"]
+name = "geoinf_ii_tp5"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+cartopy = ">=0.25.0,<0.26"
+geopandas = ">=1.1.3,<2"
+matplotlib = ">=3.10.9,<4"
+pandas = ">=3.0.3,<4"
+shapely = ">=2.1.2,<3"
+jupyter-book = ">=2.1.5,<3"
