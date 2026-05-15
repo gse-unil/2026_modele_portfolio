@@ -17,6 +17,8 @@ Voici l’organisation du modèle :
 
 ## I. Configurer le portfolio
 
+On va faire la configuration sur GitHub pages, mais si vous préférez ne pas avoir un répertoire GitHub public, vous pouvez directement passer à la section [Optionnel : utiliser GitLab pour un portfolio plus privé](#optionnel--utiliser-gitlab-pour-un-portfolio-plus-privé).
+
 ![tp5](content/other/tp5-tuto.gif)
 
 Tout d'abord pour publier ce répertoire sur GitHub Pages, suivez ces étapes :
@@ -82,3 +84,41 @@ toc:
     - file: content/mon_projet.ipynb
     - file: content/mon_projet_2.ipynb
 ```
+
+## Optionnel : utiliser GitLab pour un portfolio plus privé
+
+Si vous préférez ne pas avoir un répertoire GitHub public, vous pouvez dupliquer le modèle de portfolio sur GitLab et restreindre l’accès au répertoire ainsi qu’au site web aux seules personnes invitées.
+
+### 1. Créer un compte GitLab
+
+Créer un compte sur : <https://gitlab.com>
+
+### 2. Dupliquer le modèle de portfolio sur GitLab
+
+1. Dans GitLab, cliquer sur **New project**
+2. Sélectionner **Import project**
+3. Choisir **Repository by URL**
+4. Coller l’URL du répertoire : `https://github.com/gse-unil/2026_modele_portfolio.git`
+5. Choisir un nom de projet (par exemple : `portfolio`)
+6. Définir la visibilité du répertoire sur : `Private`
+7. Cliquer sur **Create project**
+
+### 3. Restreindre l’accès au site web
+
+Pour que seules les personnes autorisées puissent accéder au portfolio :
+
+1. Aller dans **Settings → General**
+2. Ouvrir **Visibility, project features, permissions**
+3. Vérifier que la visibilité du projet est définie sur : `Private`
+4. Dans la section **Pages**, choisir : `Only project members`
+
+### 4. Ajouter les enseignant·e·s au projet
+
+Pour permettre aux enseignant·e·s d’accéder au portfolio :
+
+1. Aller dans **Manage → Members**
+2. Cliquer sur **Invite members**
+3. Ajouter les identifiants GitLab ou adresses email fournis par les enseignant·e·s
+4. Attribuer le rôle : `Reporter`
+
+### 5. Continuer ensuite comme indiqué dans [II. Renseigner les données](#ii.-renseigner-les-données)
